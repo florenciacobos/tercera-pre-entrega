@@ -1,0 +1,59 @@
+/*HEADER*/
+
+.imgLogo {
+    width: 140px;
+    height: 140px;
+    border: $color-principal solid 3px;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+.encabezado {
+    font-family: cursive;
+    font-size: small;
+    background-color: $color-fondo;
+    border-bottom: 20px solid $color-secundario;
+    border-top: 20px solid $color-secundario;
+    height: auto;
+}
+
+.container-fluid {
+    justify-content: space-around;
+}
+
+.contenedorBusqueda {
+    display: flex;
+    align-items: center;
+}
+
+.busqueda {
+    background: $color-secundario;
+    color: $color-principal;
+    width: auto;
+    height: 30px;
+    padding: 20px;
+}
+
+.btn {
+    background: $color-secundario;
+    color: $color-principal;
+    border: $color-fondo;
+    border-radius: 10PX;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+
+    &:hover {
+        background: $color-principal;
+        color: $color-fondo;
+    }
+}
+
+.nav-link {
+    color: $color-principal;
+
+    &:hover {
+        color: $color-secundario;
+    }
+}
