@@ -6,8 +6,6 @@
 
 .imgCentral {
   border-radius: 20px;
-  border-left: $color-secundario solid 3px;
-  border-right: $color-secundario solid 3px;
   margin: 20px 0;
 }
 
@@ -78,6 +76,12 @@ h1 {
   color: $color-principal;
   text-align: center;
 }
+
+.botonCarrito {
+  width: 200px;
+  text-transform: uppercase;
+}
+
 
 .btnAceptarCancelar {
   width: 150px;

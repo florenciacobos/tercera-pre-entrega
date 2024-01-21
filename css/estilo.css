@@ -22,8 +22,6 @@ main {
 
 .imgCentral {
   border-radius: 20px;
-  border-left: #D192A5 solid 3px;
-  border-right: #D192A5 solid 3px;
   margin: 20px 0;
 }
 
@@ -338,17 +336,14 @@ h1 {
 }
 
 .busqueda {
-  /*barra espaciadora para buscar productos*/
   background: #D192A5;
   color: #DC557E;
   width: auto;
   height: 30px;
-  /* margin: 20px; */
   padding: 20px;
 }
 
 .btn {
-  /*boton de buscar producto*/
   background: #D192A5;
   color: #DC557E;
   border: #EDDDDD;
