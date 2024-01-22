@@ -29,26 +29,34 @@
 .busqueda {
     background: $color-secundario;
     color: $color-principal;
+    border-radius: 20px;
     width: auto;
     height: 30px;
     padding: 20px;
+   
 }
 
-.btn {
-    background: $color-secundario;
+.btnBuscar{
+    background-color:  $color-secundario;
     color: $color-principal;
-    border: $color-fondo;
-    border-radius: 10PX;
-    width: 100px;
-    height: 40px;
-    margin: 20px;
-    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid $color-principal;
+    width: auto;
+    height: 30px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    line-height: 10px;
 
     &:hover {
-        background: $color-principal;
-        color: $color-fondo;
-    }
+        background-color: $color-principal;
+        color: $color-secundario;
+        border: $color-secundario solid 3px;
+        color: $color-secundario;
+      }
+
 }
+
 
 .nav-link {
     color: $color-principal;

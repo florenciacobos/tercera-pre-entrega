@@ -8,6 +8,8 @@
         content="Contáctanos para cualquier consulta, sugerencia o pedido relacionado con nuestra lencería femenina. Estamos aquí para ayudarte y brindarte la mejor experiencia de compra.">
     <title>CONTACTO | FEMINA STYLE</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- link de libreria AOS -->
+
     <link rel="icon" href="../img/logo-femina-style.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -57,8 +59,7 @@
                 <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
                     aria-label="Search">
 
-                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-                </form>
+                <input class="btnBuscar  text-fluid btn-primary" type="button" value="BUSCAR">
             </nav>
         </div>
     </header>
@@ -66,8 +67,8 @@
     <main>
 
         <div>
-            <h1 class="text-center text-fluid tituloContacto">CONTACTO:</h1>
-            
+            <h1 data-aos="zoom-in" class="text-center text-fluid tituloContacto">CONTACTO:</h1>
+
         </div>
 
         <!-- FORMS 1 -->
@@ -126,10 +127,18 @@
             </form>
 
             <div class="col-xl-4 text-center">
-                <img class=" img-fluid fotoContacto" src="../img/lenceria.jpg" alt="foto de lenceria ilustrativa">
+                <img data-aos="fade-up" class=" img-fluid fotoContacto" src="../img/lenceria.jpg"
+                    alt="foto de lenceria ilustrativa">
             </div>
 
         </div>
+
+        <!-- logo whatsapp -->
+
+        <a href="https://web.whatsapp.com/send?phone=2615953001&text=Hola!,%20quisiera%20hacerte%20una%20consulta"
+            target="_blank">
+            <img class="logoWhats img-fluid" src="../img/logo-whatsapp.png" alt="whatsapp verde de whatsapp">
+        </a>
 
     </main>
 
@@ -240,18 +249,15 @@
 
         </div>
 
-        <!-- logo whatsapp -->
-
-        <a href="https://web.whatsapp.com/send?phone=2615953001&text=Hola!,%20quisiera%20hacerte%20una%20consulta"
-            target="_blank">
-            <img class="logoWhats img-fluid" src="../img/logo-whatsapp.png" alt="whatsapp verde de whatsapp">
-        </a>
-
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

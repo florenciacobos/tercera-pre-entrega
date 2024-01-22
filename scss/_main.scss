@@ -9,18 +9,11 @@
   margin: 20px 0;
 }
 
-.divTitulo {
-  color: $color-principal;
-  font-family: cursive;
-  background-color: $color-secundario;
-  border: $color-principal solid 3px;
-  border-radius: 20px;
-  width: 300px;
-}
-
 .titNov {
   font-size: 25px;
   padding-top: 5px;
+  color: $color-principal;
+
 }
 
 .carruselNovedades {
@@ -29,6 +22,7 @@
   margin: 20px auto;
   padding: 10px;
 }
+
 
 //productos!!!
 h1 {
@@ -64,10 +58,20 @@ h1 {
 }
 
 .btnModal {
-  width: 200px;
+  background: $color-secundario;
+  color: $color-principal;
+  border: $color-fondo;
+  border-radius: 10PX;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
   text-transform: uppercase;
-  font-size: bold;
-  font-family: cursive;
+
+  &:hover {
+      background: $color-principal;
+      color: $color-fondo;
+  }
 }
 
 .textoCarrito {
@@ -78,7 +82,7 @@ h1 {
 }
 
 .botonCarrito {
-  width: 200px;
+  width: 400px;
   text-transform: uppercase;
 }
 
@@ -138,11 +142,25 @@ h1 {
   }
 }
 
-//consejos// no lo toma
+//CONSEJOS
 
 .titConsejo {
   font-size: 25px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  color: $color-principal;
+  font-family: cursive;
+  background-color: $color-secundario;
+  border: $color-principal solid 3px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.imgConsejo{
+  border: solid 3px $color-principal;
+  border-radius: 20px;
+  width: 200;
+  height: 300px;
+  display: inline
 }
 
 //COLLAPSE
@@ -155,12 +173,16 @@ h1 {
 .btnConsejo {
   width: 250px;
   border: $color-principal solid 3px;
-  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: $color-secundario;
+  color: $color-principal;
+  padding: 10px;
 
   &:hover {
     border: $color-secundario solid 3px;
   }
 }
+
 
 .textoCollapse {
   width: 250px;
@@ -224,12 +246,14 @@ h1 {
 
 .btnNos {
   width: 250px;
+  color: $color-principal;
   background-color: $color-secundario;
   border-radius: 20px;
   border: $color-principal solid 3px;
   padding: 10px 0;
 
   &:hover {
+    color:  $color-secundario;
     background-color: $color-principal;
     border: $color-secundario solid 3px;
   }

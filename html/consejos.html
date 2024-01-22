@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Encuentra consejos útiles sobre cómo elegir la lencería adecuada, cómo cuidar tus prendas y cómo sentirte segura y cómoda en cada ocasión. Descubre nuestros consejos de estilo y bienestar.">
+    <meta name="description"
+        content="Encuentra consejos útiles sobre cómo elegir la lencería adecuada, cómo cuidar tus prendas y cómo sentirte segura y cómoda en cada ocasión. Descubre nuestros consejos de estilo y bienestar.">
     <title>CONSEJOS | FEMINA STYLE</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- link de libreria AOS -->
 
     <link rel="icon" href="../img/logo-femina-style.png">
 
@@ -59,72 +62,89 @@
                 </ul>
                 <div class="contenedorBusqueda">
                     <input class="form-control me-2 busqueda" type="search" placeholder="Busca un producto..."
-                    aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                        aria-label="Search">
+                    <input class="btnBuscar  text-fluid btn-primary" type="button" value="BUSCAR">
                 </div>
+
                 
-                </form>
             </nav>
         </div>
     </header>
 
     <main class="text-center ">
+        <h1 class="text-fluid text-center titConsejo">CONSEJOS UTILES</h1>
 
-        <div class="text-center divTitulo">
-            <h1 class="text-fluid titConsejo">CONSEJOS UTILES</h1>
-            
-        </div>
+        <!--COLLAPSE -->
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col">
+                    <p>
+                        <img class="img-fluid imgConsejo" src="../img/imgconsejo1.png" alt="CONSEJO 1-foro lenceria">
+                        <button type="button" class="btnConsejo" data-bs-target="#collapse1" data-bs-toggle="collapse"
+                            aria-controls="collapse1" aria-expanded="false">Como cuidar tu prenda:</button>
 
-            <!--COLLAPSE -->
-            <div class="d-flex">
-
-            </div>
-            <p class="d-inline-flex gap-1">
-                
-                <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse1" data-bs-toggle="collapse" aria-controls="collapse1" aria-expanded="false">Como cuidar tu prenda:</button>
-
-                <div class="collapse text-center" id="collapse1">
-                    <div class="card card-body text-center textoCollapse" >
-                        <p>
-                            <img class="img-fluid "id="collapse1" src="../img/imgconsejo1.png" alt="CONSEJO 1-foro lenceria">
-                            Lavar a mano,
-                            Secar al aire libre,
-                            Usa bolsas de lavado,
-                            Almacenamiento adecuado
-                        </p>
+                    <div class="collapse text-center" id="collapse1">
+                        <div class="card card-body text-center textoCollapse">
+                            <p>
+                            <ul>
+                                <li>Lavar a mano</li>
+                                <li>Secar al aire libre</li>
+                                <li>Usa bolsas de lavado</li>
+                                <li>Almacenamiento adecuado</li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
-                  </div>
-
-                <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse2" data-bs-toggle="collapse" aria-controls="collapse2" aria-expanded="false">Como se lava la ropa interior:</button>
-
-                
-              </p>
-              <div class="collapse text-center" id="collapse2" >
-                <div class="card card-body text-center textoCollapse">
-                    
-                    <p >
-                        <img class="img-fluid" src="../img/imconsejo2.png" alt="CONSEJO 2-foto lenceria">
-                        Antes de lavar, asegúrate de leer las etiquetas de cuidado.
-                        Siempre es mejor lavar a mano para evitar que se dañe la prenda .
-                        Usa agua tibia y un detergente suave para lavar la lenceria.
                     </p>
                 </div>
-              </div>
+                <div class="col">
+                    <p>
+                        <img class="img-fluid imgConsejo" src="../img/imconsejo2.png" alt="CONSEJO 2-foto lenceria">
+                        <button type="button" class="btnConsejo" data-bs-target="#collapse2" data-bs-toggle="collapse"
+                            aria-controls="collapse2" aria-expanded="false">Como se lava la ropa interior:</button>
 
-              <button type="button" class="btn btn-light btnConsejo" data-bs-target="#collapse3" data-bs-toggle="collapse" aria-controls="collapse1" aria-expanded="false">Como guardar la lenceria:</button>
+                    <div class="collapse text-center" id="collapse2">
+                        <div class="card card-body text-center textoCollapse">
 
-                <div class="collapse text-center " id="collapse3">
-                    <div class="card card-body text-center textoCollapse" >
-                        <p>
-                            <img class="img-fluid " src="../img/imgconsejo3.jpg" alt="CONSEJO 3-foto lenceria">
-                            Guarda la ropa interior en un cajón o armario limpio y seco para evitar que se
-                            ensucie o
-                            dañe. Separa
-                            las prendas por tipo y color para facilitar la selección y el cuidado.
-                        </p>
+                            <p>
+                                Antes de lavar, asegúrate de leer las etiquetas de cuidado.
+                                Siempre es mejor lavar a mano para evitar que se dañe la prenda .
+                                Usa agua tibia y un detergente suave para lavar la lenceria.
+                            </p>
+                        </div>
                     </div>
+                    </p>
                 </div>
-            </p>    
+                <div class="col">
+                    <p>
+                        <img class="img-fluid imgConsejo" src="../img/consejos3-nueva.jpg"
+                            alt="CONSEJO 3-foto lenceria">
+                        <button type="button" class="btnConsejo" data-bs-target="#collapse3" data-bs-toggle="collapse"
+                            aria-controls="collapse1" aria-expanded="false">Como guardar la lenceria:</button>
+
+                    <div class="collapse text-center " id="collapse3">
+                        <div class="card card-body text-center textoCollapse">
+                            <p>
+
+                                Guarda la ropa interior en un cajón o armario limpio y seco para evitar que se
+                                ensucie o
+                                dañe. Separa
+                                las prendas por tipo y color para facilitar la selección y el cuidado.
+                            </p>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- logo whatsapp -->
+
+        <a href="https://web.whatsapp.com/send?phone=2615953001&text=Hola!,%20quisiera%20hacerte%20una%20consulta"
+            target="_blank">
+            <img class="logoWhats img-fluid" src="../img/logo-whatsapp.png" alt="whatsapp verde de whatsapp">
+        </a>
+
     </main>
 
     <!-- FOOTER -->
@@ -137,7 +157,8 @@
                     <h4 class="text-uppercase mb-4 font-weight-bold tituloFooter">Nosotros:</h4>
                     <hr class="mb-4">
                     <p class="font-weight-bold parrafoFooter">
-                        Bienvenida a nuestra tienda de lencería femenina! Desde hace 4 años, nos hemos dedicado apasionadamente a ofrecerte una amplia selección de prendas íntimas.
+                        Bienvenida a nuestra tienda de lencería femenina! Desde hace 4 años, nos hemos dedicado
+                        apasionadamente a ofrecerte una amplia selección de prendas íntimas.
                     </p>
 
                 </div>
@@ -239,6 +260,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

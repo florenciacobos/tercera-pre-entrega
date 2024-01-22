@@ -25,18 +25,10 @@ main {
   margin: 20px 0;
 }
 
-.divTitulo {
-  color: #DC557E;
-  font-family: cursive;
-  background-color: #D192A5;
-  border: #DC557E solid 3px;
-  border-radius: 20px;
-  width: 300px;
-}
-
 .titNov {
   font-size: 25px;
   padding-top: 5px;
+  color: #DC557E;
 }
 
 .carruselNovedades {
@@ -78,10 +70,19 @@ h1 {
 }
 
 .btnModal {
-  width: 200px;
+  background: #D192A5;
+  color: #DC557E;
+  border: #EDDDDD;
+  border-radius: 10PX;
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
   text-transform: uppercase;
-  font-size: bold;
-  font-family: cursive;
+}
+.btnModal:hover {
+  background: #DC557E;
+  color: #EDDDDD;
 }
 
 .textoCarrito {
@@ -89,6 +90,11 @@ h1 {
   font-family: cursive;
   color: #DC557E;
   text-align: center;
+}
+
+.botonCarrito {
+  width: 400px;
+  text-transform: uppercase;
 }
 
 .btnAceptarCancelar {
@@ -142,7 +148,21 @@ h1 {
 
 .titConsejo {
   font-size: 25px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  color: #DC557E;
+  font-family: cursive;
+  background-color: #D192A5;
+  border: #DC557E solid 3px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.imgConsejo {
+  border: solid 3px #DC557E;
+  border-radius: 20px;
+  width: 200;
+  height: 300px;
+  display: inline;
 }
 
 .collapse1, .collapse2, .collapse3 {
@@ -153,7 +173,10 @@ h1 {
 .btnConsejo {
   width: 250px;
   border: #DC557E solid 3px;
-  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: #D192A5;
+  color: #DC557E;
+  padding: 10px;
 }
 .btnConsejo:hover {
   border: #D192A5 solid 3px;
@@ -214,12 +237,14 @@ h1 {
 
 .btnNos {
   width: 250px;
+  color: #DC557E;
   background-color: #D192A5;
   border-radius: 20px;
   border: #DC557E solid 3px;
   padding: 10px 0;
 }
 .btnNos:hover {
+  color: #D192A5;
   background-color: #DC557E;
   border: #D192A5 solid 3px;
 }
@@ -338,24 +363,29 @@ h1 {
 .busqueda {
   background: #D192A5;
   color: #DC557E;
+  border-radius: 20px;
   width: auto;
   height: 30px;
   padding: 20px;
 }
 
-.btn {
-  background: #D192A5;
+.btnBuscar {
+  background-color: #D192A5;
   color: #DC557E;
-  border: #EDDDDD;
-  border-radius: 10PX;
-  width: 100px;
-  height: 40px;
-  margin: 20px;
-  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid #DC557E;
+  width: auto;
+  height: 30px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  line-height: 10px;
 }
-.btn:hover {
-  background: #DC557E;
-  color: #EDDDDD;
+.btnBuscar:hover {
+  background-color: #DC557E;
+  color: #D192A5;
+  border: #D192A5 solid 3px;
+  color: #D192A5;
 }
 
 .nav-link {
