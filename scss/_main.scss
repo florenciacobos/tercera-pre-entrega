@@ -48,8 +48,9 @@ h1 {
 .contenedorProductos {
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: auto;
+  
 }
 
 //MODAL
@@ -128,7 +129,7 @@ h1 {
   width: 120px;
   right: 15px;
   position: fixed;
-  bottom: 20px;
+  bottom: 18px;
 }
 
 //PAGINACION
@@ -147,14 +148,14 @@ h1 {
 //CONSEJOS
 
 .titConsejo {
-  font-size: 25px;
-  padding-bottom: 10px;
+  font-size: 20px;
+  padding-bottom: 7px;
   color: $color-principal;
   font-family: cursive;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
   border-radius: 20px;
-  width: 300px;
+  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -219,6 +220,7 @@ contenedorCollapse{
   max-width: 100%;
   height: auto;
   border: $color-principal solid 3px;
+  border-radius: 20px;
 }
 
 //ACORDEON
@@ -252,14 +254,22 @@ contenedorCollapse{
 }
 
 //COLUMNS
+.btnNos1{
+  width: 250px;
+  color: $color-principal;
+  background-color: $color-fondo-prod;
+  border-radius: 20px;
+  border: $color-principal solid 3px;
+  padding: 5px;
+}
 
 .btnNos {
-  width: 250px;
+  width: 200px;
   color: $color-principal;
   background-color: $color-secundario;
   border-radius: 20px;
   border: $color-principal solid 3px;
-  padding: 10px 0;
+  padding: 5px;
 
   &:hover {
     color:  $color-secundario;
@@ -270,6 +280,7 @@ contenedorCollapse{
 
 .btnTexto {
   background-color: $color-fondo-prod;
+  border: solid 3px $color-principal;
   color: $color-principal;
   font-family: cursive;
 }
@@ -289,7 +300,7 @@ contenedorCollapse{
 
 
 .tituloContacto {
-  width: 260px;
+  width: auto;
   color: $color-fondo;
   background-color: $color-secundario;
   border: $color-principal solid 3px;

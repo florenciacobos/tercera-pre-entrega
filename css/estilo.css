@@ -10,8 +10,8 @@ body {
 }
 
 main {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   font-family: cursive;
 }
 
@@ -61,8 +61,8 @@ h1 {
 .contenedorProductos {
   text-align: center;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .productos h2 {
@@ -135,7 +135,7 @@ h1 {
   width: 120px;
   right: 15px;
   position: fixed;
-  bottom: 20px;
+  bottom: 18px;
 }
 
 .page-link {
@@ -149,14 +149,14 @@ h1 {
 }
 
 .titConsejo {
-  font-size: 25px;
-  padding-bottom: 10px;
+  font-size: 20px;
+  padding-bottom: 7px;
   color: #DC557E;
   font-family: cursive;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  width: 300px;
+  width: auto;
   display: flex;
   justify-content: center;
 }
@@ -215,6 +215,7 @@ contenedorCollapse {
   max-width: 100%;
   height: auto;
   border: #DC557E solid 3px;
+  border-radius: 20px;
 }
 
 .contenedorAcordion {
@@ -244,13 +245,22 @@ contenedorCollapse {
   text-transform: uppercase;
 }
 
-.btnNos {
+.btnNos1 {
   width: 250px;
+  color: #DC557E;
+  background-color: #f8ccd9;
+  border-radius: 20px;
+  border: #DC557E solid 3px;
+  padding: 5px;
+}
+
+.btnNos {
+  width: 200px;
   color: #DC557E;
   background-color: #D192A5;
   border-radius: 20px;
   border: #DC557E solid 3px;
-  padding: 10px 0;
+  padding: 5px;
 }
 .btnNos:hover {
   color: #D192A5;
@@ -260,6 +270,7 @@ contenedorCollapse {
 
 .btnTexto {
   background-color: #f8ccd9;
+  border: solid 3px #DC557E;
   color: #DC557E;
   font-family: cursive;
 }
@@ -277,7 +288,7 @@ contenedorCollapse {
 }
 
 .tituloContacto {
-  width: 260px;
+  width: auto;
   color: #EDDDDD;
   background-color: #D192A5;
   border: #DC557E solid 3px;
@@ -368,7 +379,7 @@ contenedorCollapse {
 }
 
 .container-fluid {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .contenedorBusqueda {
