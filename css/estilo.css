@@ -292,13 +292,12 @@ contenedorCollapse {
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
+  margin: auto;
   padding: 10px 10px;
   font-family: cursive;
 }
 
 .llenarInfo {
-  width: auto;
   color: #f8ccd9;
   background-color: #D192A5;
   border: #DC557E solid 3px;
@@ -310,59 +309,43 @@ contenedorCollapse {
   color: #f8ccd9;
 }
 
-.btnEnviar {
-  width: 150px;
-  color: #EDDDDD;
-  background-color: #D192A5;
-  border: #DC557E solid 3px;
-  border-radius: 20px;
-  margin: 10px 0px 10px 100px;
-  padding: 5px 10px;
-  font-family: cursive;
-}
-.btnEnviar:hover {
-  background-color: #DC557E;
-  border: #DC557E solid 3px;
+.contenedorBotones {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
-.btnRestablecer {
+.btnEnviar, .btnRestablecer {
   width: 150px;
   color: #EDDDDD;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  margin: 10px 0px 10px 250px;
-  padding: 5px 10px;
   font-family: cursive;
 }
-.btnRestablecer:hover {
+.btnEnviar:hover, .btnRestablecer:hover {
   background-color: #DC557E;
   border: #DC557E solid 3px;
 }
 
 .fotoContacto {
   border: #DC557E 3px solid;
-  border-radius: 20px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  border-radius: 20px;
+  position: relative;
 }
 
 .textA {
-  width: 580px;
   background-color: #D192A5;
   border: #DC557E solid 3px;
-  margin: 5px;
   font-family: cursive;
 }
 .textA:hover {
   background-color: #DC557E;
   border: #f8ccd9 solid 3px;
   color: #f8ccd9;
-}
-
-.contenedorBotones {
-  width: 600px;
-  display: flex;
 }
 
 /*HEADER*/

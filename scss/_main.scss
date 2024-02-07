@@ -284,15 +284,6 @@ contenedorCollapse{
   justify-content: center;
   border: 3px $color-principal solid;
   border-radius: 20px;
-  // .fotoContacto {
-  //   width: auto;
-  //   height: 400px;
-  //   border: $color-principal 3px solid;
-  //   border-radius: 20px;
-  //   display: flex;
-  //   justify-content: center;
-  // }
-  
 }
 
 
@@ -322,7 +313,7 @@ contenedorCollapse{
 }
 
 .llenarInfo {
-  width: auto;
+  // width: auto;
   color: $color-fondo-prod;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
@@ -336,7 +327,7 @@ contenedorCollapse{
 }
 
 .contenedorBotones{
-  width: 600px;
+  width: 500px;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -360,18 +351,19 @@ contenedorCollapse{
 
 
 .fotoContacto {
-max-width: 100%;
-height: auto;
+// width: 100%;
+// height: auto;
 border: $color-principal 3px solid;
-border-radius: 20px;
 display: flex;
 justify-content: center;
+border-radius: 20px;
+position: relative;
 }
 
 .textA {
   background-color: $color-secundario;
   border: $color-principal solid 3px;
-  margin: 5px;
+  // margin: 5px;
   font-family: cursive;
 
   &:hover {
