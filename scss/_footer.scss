@@ -20,10 +20,17 @@ a{
     background-color: $color-secundario;
     border: $color-principal solid 3px;
     border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
+    // padding: 10px;
+    // margin: 10px;
     color: $color-fondo;
     text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorF{
+    display: flex;
+    justify-content: center;
   }
   
   .contenedorFooter {

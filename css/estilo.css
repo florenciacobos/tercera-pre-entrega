@@ -120,8 +120,9 @@ h1 {
   border: #D192A5 solid 3px;
   border-radius: 20px;
   width: 250px;
-  height: 400px;
+  height: 550px;
   margin: 10px auto;
+  object-fit: cover;
 }
 
 .nombreProduc {
@@ -155,6 +156,8 @@ h1 {
   border: #DC557E solid 3px;
   border-radius: 20px;
   width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .imgConsejo {
@@ -163,6 +166,11 @@ h1 {
   width: 200;
   height: 300px;
   display: inline;
+}
+
+contenedorCollapse {
+  display: flex;
+  justify-content: center;
 }
 
 .collapse1, .collapse2, .collapse3 {
@@ -260,19 +268,26 @@ h1 {
   border-radius: 20px;
 }
 
+.contenedorContacto {
+  display: flex;
+  justify-content: center;
+  border: 3px #DC557E solid;
+  border-radius: 20px;
+}
+
 .tituloContacto {
-  width: 250px;
+  width: 260px;
   color: #EDDDDD;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
-  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
   font-family: cursive;
 }
 
 .descripcionContacto {
-  width: 100px;
+  width: auto;
   color: #EDDDDD;
   background-color: #D192A5;
   border: #DC557E solid 3px;
@@ -295,42 +310,59 @@ h1 {
   color: #f8ccd9;
 }
 
-.btnEnviarRestablecer {
+.btnEnviar {
   width: 150px;
   color: #EDDDDD;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
+  margin: 10px 0px 10px 100px;
   padding: 5px 10px;
   font-family: cursive;
 }
-.btnEnviarRestablecer:hover {
+.btnEnviar:hover {
+  background-color: #DC557E;
+  border: #DC557E solid 3px;
+}
+
+.btnRestablecer {
+  width: 150px;
+  color: #EDDDDD;
+  background-color: #D192A5;
+  border: #DC557E solid 3px;
+  border-radius: 20px;
+  margin: 10px 0px 10px 250px;
+  padding: 5px 10px;
+  font-family: cursive;
+}
+.btnRestablecer:hover {
   background-color: #DC557E;
   border: #DC557E solid 3px;
 }
 
 .fotoContacto {
-  width: auto;
-  height: 400px;
   border: #DC557E 3px solid;
-  border-radius: 50px;
+  border-radius: 20px;
   display: flex;
   justify-content: right;
 }
 
 .textA {
-  width: 400px;
+  width: 580px;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   margin: 5px;
   font-family: cursive;
-  width: auto;
 }
 .textA:hover {
   background-color: #DC557E;
   border: #f8ccd9 solid 3px;
   color: #f8ccd9;
+}
+
+.contenedorBotones {
+  width: 600px;
+  display: flex;
 }
 
 /*HEADER*/
@@ -344,7 +376,7 @@ h1 {
 
 .encabezado {
   font-family: cursive;
-  font-size: small;
+  font-size: 16px;
   background-color: #EDDDDD;
   border-bottom: 20px solid #D192A5;
   border-top: 20px solid #D192A5;
@@ -418,10 +450,15 @@ hr {
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
   color: #EDDDDD;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorF {
+  display: flex;
+  justify-content: center;
 }
 
 .contenedorFooter {

@@ -112,8 +112,9 @@ h1 {
   border: $color-secundario solid 3px;
   border-radius: 20px;
   width: 250px;
-  height: 400px;
+  height: 550px;
   margin: 10px auto;
+  object-fit: cover;
 }
 
 .nombreProduc {
@@ -153,6 +154,8 @@ h1 {
   border: $color-principal solid 3px;
   border-radius: 20px;
   width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .imgConsejo{
@@ -164,6 +167,11 @@ h1 {
 }
 
 //COLLAPSE
+
+contenedorCollapse{
+  display: flex;
+  justify-content: center;
+}
 
 .collapse1, .collapse2, .collapse3 {
   background-color: $color-secundario;
@@ -271,26 +279,44 @@ h1 {
 }
 
 //CONTACTOS
+.contenedorContacto{
+  display: flex;
+  justify-content: center;
+  border: 3px $color-principal solid;
+  border-radius: 20px;
+  // .fotoContacto {
+  //   width: auto;
+  //   height: 400px;
+  //   border: $color-principal 3px solid;
+  //   border-radius: 20px;
+  //   display: flex;
+  //   justify-content: center;
+  // }
+  
+}
+
 
 .tituloContacto {
-  width: 250px;
+  width: 260px;
   color: $color-fondo;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
-  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  // margin: 10px 10px;
+  // padding: 10px 10px;
   font-family: cursive;
 }
 
 //FORMS
 .descripcionContacto {
-  width: 100px;
+  width: auto;
   color: $color-fondo;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
+  margin: auto;
   padding: 10px 10px;
   font-family: cursive;
 }
@@ -309,38 +335,44 @@ h1 {
   }
 }
 
-.btnEnviarRestablecer {
+.contenedorBotones{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.btnEnviar, .btnRestablecer {
   width: 150px;
   color: $color-fondo;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
   border-radius: 20px;
-  margin: 10px 10px;
-  padding: 5px 10px;
+  // margin: auto;
+  // padding: auto;
   font-family: cursive;
-
+  
   &:hover {
     background-color: $color-principal;
     border: $color-principal solid 3px;
   }
 }
 
+
 .fotoContacto {
-  width: auto;
-  height: 400px;
-  border: $color-principal 3px solid;
-  border-radius: 50px;
-  display: flex;
-  justify-content: right;
+max-width: 100%;
+height: auto;
+border: $color-principal 3px solid;
+border-radius: 20px;
+display: flex;
+justify-content: center;
 }
 
 .textA {
-  width: 400px;
   background-color: $color-secundario;
   border: $color-principal solid 3px;
   margin: 5px;
   font-family: cursive;
-  width: auto;
 
   &:hover {
     background-color: $color-principal;
