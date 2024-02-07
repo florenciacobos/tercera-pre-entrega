@@ -16,12 +16,10 @@ a{
   }
   
   .tituloFooter {
-    width: 220px;
+    width: 200px;
     background-color: $color-secundario;
     border: $color-principal solid 3px;
     border-radius: 20px;
-    // padding: 10px;
-    // margin: 10px;
     color: $color-fondo;
     text-align: center;
     display: flex;
@@ -40,8 +38,9 @@ a{
   .parrafoFooter {
     font-family: cursive;
     color: $color-principal;
-    font-size: bold;
+    font-size: 15px;
     display: flex;
+    
   }
   
   .iconoContacto {

@@ -429,7 +429,7 @@ hr {
 }
 
 .tituloFooter {
-  width: 220px;
+  width: 200px;
   background-color: #D192A5;
   border: #DC557E solid 3px;
   border-radius: 20px;
@@ -451,7 +451,7 @@ hr {
 .parrafoFooter {
   font-family: cursive;
   color: #DC557E;
-  font-size: bold;
+  font-size: 15px;
   display: flex;
 }
 
