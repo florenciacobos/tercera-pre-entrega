@@ -39,7 +39,7 @@ h1 {
   font-weight: bold;
   font-family: cursive;
   padding: 5px;
-  margin: 20px;
+  margin: 5px;
   color: $color-fondo;
   text-align: center;
   text-transform: uppercase;
@@ -114,6 +114,7 @@ h1 {
   width: 250px;
   height: 550px;
   margin: 10px auto;
+  display: flex;
   object-fit: cover;
 }
 
@@ -124,8 +125,8 @@ h1 {
 
 
 .logoWhats {
-  width: 150px;
-  right: 20px;
+  width: 120px;
+  right: 15px;
   position: fixed;
   bottom: 20px;
 }
